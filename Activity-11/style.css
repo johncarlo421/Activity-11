@@ -1,0 +1,90 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:skyblue;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    padding-right: 30px;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline burlywood;
+}
+.black{
+    color:white;
+}
+.a1{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+}
+.con2{
+    padding: 20px;
+    background-size: cover;
+    background-image: url(hardware-and-software-computer-technology-background-isometric-elements-of-development-engineering-electronics-systems-and-devices-design-2GNTJK5.jpg);
+}
+.flex-con {
+    heiight: 150px;
+    paddng: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-item {
+    width: 50px;
+    height: 150px;
+    background-color: skyblue;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.item1{
+    order: 3;
+    flex-grow: 1;
+    background-color: skyblue;
+    color: white;
+}
+
+.item2{
+    order: 2;
+    flex-grow: 2;
+    background-color: skyblue;
+    color: white;
+    height: auto;
+}
+
+.item3{
+    order: 1;
+    flex-grow: 4;
+    background-color: skyblue;
+    color: white;
+    height: auto;
+}
+footer{
+    text-align: center;
+    background-color: skyblue 
+    color: blue
+    padding: 10px;
+    border: 3px;
+}
